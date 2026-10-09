@@ -1,0 +1,8 @@
+{
+  "name": "Remix Employment Report Management System — Sisters of Mary",
+  "description": "Centralized multi-campus employment and qualification report management system for Sisters of Mary of Banneux, Inc. (Biga, Minglanilla, Talisay, and Adlas campuses).",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

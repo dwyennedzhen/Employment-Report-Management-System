@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Times New Roman', Times, Georgia, serif;
+    --font-mono: 'Times New Roman', Times, Georgia, serif;
+  }
+
+  html,
+  body,
+  button,
+  input,
+  select,
+  textarea,
+  table,
+  th,
+  td {
+    font-family: 'Times New Roman', Times, Georgia, serif !important;
+  }
+
+  body {
+    background-color: #f8fafc;
+    color: #0f172a;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .font-mono {
+    font-family: 'Times New Roman', Times, Georgia, serif !important;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@media print {
+  body,
+  table,
+  th,
+  td,
+  h1,
+  h2,
+  h3,
+  p,
+  span,
+  div {
+    font-family: 'Times New Roman', Times, Georgia, serif !important;
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: inline !important;
+  }
+  .print-container {
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}

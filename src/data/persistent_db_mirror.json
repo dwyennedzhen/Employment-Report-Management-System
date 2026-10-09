@@ -1,0 +1,171 @@
+{
+  "campuses": [
+    {
+      "id": "BIGA",
+      "code": "BIGA",
+      "campusName": "Sisters of Mary Biga",
+      "location": "Biga II, Silang, Cavite",
+      "status": "ACTIVE",
+      "createdAt": "2026-01-15T08:00:00.000Z"
+    },
+    {
+      "id": "MINGLANILLA",
+      "code": "MINGLANILLA",
+      "campusName": "Sisters of Mary Minglanilla",
+      "location": "Tungkop, Minglanilla, Cebu",
+      "status": "ACTIVE",
+      "createdAt": "2026-01-15T08:00:00.000Z"
+    },
+    {
+      "id": "TALISAY",
+      "code": "TALISAY",
+      "campusName": "Sisters of Mary Talisay",
+      "location": "J.P. Rizal St., Talisay City, Cebu",
+      "status": "ACTIVE",
+      "createdAt": "2026-01-15T08:00:00.000Z"
+    },
+    {
+      "id": "ADLAS",
+      "code": "ADLAS",
+      "campusName": "Sisters of Mary Adlas",
+      "location": "Adlas, Silang, Cavite",
+      "status": "ACTIVE",
+      "createdAt": "2026-01-15T08:00:00.000Z"
+    }
+  ],
+  "qualifications": [
+    {
+      "id": "QUAL_BPP",
+      "code": "BPP",
+      "qualificationName": "Bread and Pastry Production",
+      "description": "TESDA NC II Qualification in Bread and Pastry Production",
+      "status": "ACTIVE",
+      "createdAt": "2026-01-15T08:00:00.000Z"
+    },
+    {
+      "id": "QUAL_CSS",
+      "code": "CSS",
+      "qualificationName": "Computer Systems Servicing",
+      "description": "TESDA NC II Qualification in Computer Systems Servicing",
+      "status": "ACTIVE",
+      "createdAt": "2026-01-15T08:00:00.000Z"
+    },
+    {
+      "id": "QUAL_CCS",
+      "code": "CCS",
+      "qualificationName": "Contact Center Services",
+      "description": "TESDA NC II Qualification in Contact Center Services (CCS)",
+      "status": "ACTIVE",
+      "createdAt": "2026-01-15T08:00:00.000Z"
+    },
+    {
+      "id": "QUAL_COMPROG",
+      "code": "ComProg",
+      "qualificationName": "Computer Programming / ComProg",
+      "description": "TESDA NC III / Specialized Qualification in Computer Programming",
+      "status": "ACTIVE",
+      "createdAt": "2026-01-15T08:00:00.000Z"
+    },
+    {
+      "id": "QUAL_BOOKKEEPING",
+      "code": "Bookkeeping",
+      "qualificationName": "Bookkeeping",
+      "description": "TESDA NC III Qualification in Bookkeeping and Accounting Operations",
+      "status": "ACTIVE",
+      "createdAt": "2026-01-15T08:00:00.000Z"
+    },
+    {
+      "id": "QUAL_TECHDRAFT",
+      "code": "Technical Drafting",
+      "qualificationName": "Technical Drafting",
+      "description": "TESDA NC II Qualification in Technical Drafting and CAD",
+      "status": "ACTIVE",
+      "createdAt": "2026-01-15T08:00:00.000Z"
+    },
+    {
+      "id": "QUAL_EPAS",
+      "code": "EPAS",
+      "qualificationName": "Electronic Products Assembly and Servicing",
+      "description": "TESDA NC II Qualification in Electronic Products Assembly and Servicing",
+      "status": "ACTIVE",
+      "createdAt": "2026-01-15T08:00:00.000Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "USR_ADMIN",
+      "fullName": "System Administrator",
+      "username": "admin",
+      "email": "admin@sistersofmary.edu.ph",
+      "passwordHash": "219d24b3862138d69757826faecd332ed5fbd4ca99bc570cd868df33354406de",
+      "role": "ADMIN",
+      "campusId": null,
+      "status": "ACTIVE",
+      "createdAt": "2026-01-15T08:00:00.000Z",
+      "updatedAt": "2026-01-15T08:00:00.000Z"
+    },
+    {
+      "id": "USR_ADMIN_OWNER",
+      "fullName": "System Administrator (Institutional Owner)",
+      "username": "edzhen",
+      "email": "edzhen.macalino@rotaryclubmakati.org",
+      "passwordHash": "219d24b3862138d69757826faecd332ed5fbd4ca99bc570cd868df33354406de",
+      "role": "ADMIN",
+      "campusId": null,
+      "status": "ACTIVE",
+      "createdAt": "2026-01-15T08:00:00.000Z",
+      "updatedAt": "2026-01-15T08:00:00.000Z"
+    },
+    {
+      "id": "USR_BIGA",
+      "fullName": "Coordinator — Sisters of Mary Biga",
+      "username": "biga",
+      "email": "biga@sistersofmary.edu.ph",
+      "passwordHash": "820d78b71780efb5ae277989e7b9e8312e575af29c5b637b7218fea0aad3a8bd",
+      "role": "CAMPUS_USER",
+      "campusId": "BIGA",
+      "status": "ACTIVE",
+      "createdAt": "2026-01-15T08:00:00.000Z",
+      "updatedAt": "2026-01-15T08:00:00.000Z"
+    },
+    {
+      "id": "USR_MINGLANILLA",
+      "fullName": "Coordinator — Sisters of Mary Minglanilla",
+      "username": "minglanilla",
+      "email": "minglanilla@sistersofmary.edu.ph",
+      "passwordHash": "cc3c258fb6c95f5a85589b2b42634bdf3d9665b6d46ab4093a1cfa7d7e97f873",
+      "role": "CAMPUS_USER",
+      "campusId": "MINGLANILLA",
+      "status": "ACTIVE",
+      "createdAt": "2026-01-15T08:00:00.000Z",
+      "updatedAt": "2026-01-15T08:00:00.000Z"
+    },
+    {
+      "id": "USR_TALISAY",
+      "fullName": "Coordinator — Sisters of Mary Talisay",
+      "username": "talisay",
+      "email": "talisay@sistersofmary.edu.ph",
+      "passwordHash": "98b5dfc262dd9e0f5094a77b6418e46c4d3a84d76e3cce6342c139189a5f42bd",
+      "role": "CAMPUS_USER",
+      "campusId": "TALISAY",
+      "status": "ACTIVE",
+      "createdAt": "2026-01-15T08:00:00.000Z",
+      "updatedAt": "2026-01-15T08:00:00.000Z"
+    },
+    {
+      "id": "USR_ADLAS",
+      "fullName": "Coordinator — Sisters of Mary Adlas",
+      "username": "adlas",
+      "email": "adlas@sistersofmary.edu.ph",
+      "passwordHash": "b4f26e892350a50607de4cb3c237046b7f03d757d6751bc05256c5177fa598a2",
+      "role": "CAMPUS_USER",
+      "campusId": "ADLAS",
+      "status": "ACTIVE",
+      "createdAt": "2026-01-15T08:00:00.000Z",
+      "updatedAt": "2026-01-15T08:00:00.000Z"
+    }
+  ],
+  "employmentReports": [],
+  "deletedReportIds": [],
+  "updatedAt": "2026-10-09T02:26:40.243Z"
+}
